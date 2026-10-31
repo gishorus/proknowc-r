@@ -1,5 +1,6 @@
 # ProKnow-C: Pipeline Automatizado para Revisão Sistemática de Literatura
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23845999.svg)](https://doi.org/10.5281/zenodo.23845999)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3594--920X-green?logo=orcid)](https://orcid.org/0009-0006-3594-920X)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R](https://img.shields.io/badge/R-≥4.3.0-blue.svg)](https://www.r-project.org/)
