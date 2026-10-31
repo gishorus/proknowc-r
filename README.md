@@ -1,10 +1,14 @@
 # ProKnow-C: Pipeline Automatizado para Revisão Sistemática de Literatura
 
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3594--920X-green?logo=orcid)](https://orcid.org/0009-0006-3594-920X)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![R](https://img.shields.io/badge/R-≥4.3.0-blue.svg)](https://www.r-project.org/)
+
 Implementação computacional do protocolo ProKnow-C (*Knowledge Development Process – Constructivist*) para seleção de portfólio bibliográfico em revisões sistemáticas de literatura.
 
 ## Descrição
 
-Este repositório contém scripts em R que automatizam as Fases 1 e 2 do método ProKnow-C, originalmente proposto por Ensslin et al. (2010). O pipeline integra exportações das bases Web of Science e Scopus, realiza deduplicação algorítmica e aplica o funil matemático para seleção de artigos.
+Este repositório contém scripts em R que automatizam as Fases 1 e 2 do método ProKnow-C, desenvolvido por pesquisadores do Laboratório de Metodologias Multicritério em Apoio à Decisão (LabMCDA) da Universidade Federal de Santa Catarina (Ensslin et al., 2010). O pipeline integra exportações das bases Web of Science e Scopus, realiza deduplicação algorítmica e aplica o funil matemático para seleção de artigos.
 
 ### Aplicação demonstrada
 
@@ -110,13 +114,21 @@ Versões de R/pacotes estão em `renv.lock`. Restaure com `renv::restore()`.
 
 Ver `docs/Figura1.drawio` para o fluxograma completo e `docs/exclusoes.md` para justificativas das exclusões.
 
+## Autor
+
+**Jeancarlos S. Soares**  
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3594--920X-green?logo=orcid)](https://orcid.org/0009-0006-3594-920X)
+
+Programa de Pós-Graduação em Contabilidade (PPGC)  
+Universidade Federal do Pará (UFPA)
+
 ## Citação
 
 Ver `CITATION.cff` ou cite como:
 
 ```bibtex
 @software{soares2026proknowc,
-  author = {Soares, Jeancarlos},
+  author = {Soares, Jeancarlos S.},
   title = {ProKnow-C: Pipeline Automatizado para Revisão Sistemática de Literatura},
   year = {2026},
   url = {https://github.com/gishorus/proknowc-r},
@@ -126,7 +138,11 @@ Ver `CITATION.cff` ou cite como:
 
 ## Referências metodológicas
 
-- Ensslin, L., Ensslin, S. R., Lacerda, R. T. O., & Tasca, J. E. (2010). ProKnow-C, Knowledge Development Process – Constructivist. *Processo técnico com patente de registro pendente junto ao INPI*.
+O método ProKnow-C foi desenvolvido por pesquisadores do Laboratório de Metodologias Multicritério em Apoio à Decisão (LabMCDA) da Universidade Federal de Santa Catarina, Brasil.
+
+- Ensslin, L., Ensslin, S. R., Lacerda, R. T. O., & Tasca, J. E. (2010). *ProKnow-C, Knowledge Development Process – Constructivist*. Processo técnico com patente de registro pendente junto ao INPI. Brasil.
+
+- Afonso, M. H., Souza, J. V., Ensslin, S. R., & Ensslin, L. (2011). Como construir conhecimento sobre o tema de pesquisa? Aplicação do processo ProKnow-C na busca de literatura sobre avaliação do desenvolvimento sustentável. *Revista de Gestão Social e Ambiental*, 5(2), 47–62. https://doi.org/10.5773/rgsa.v5i2.265
 
 ## Licença
 
