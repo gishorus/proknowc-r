@@ -9,7 +9,7 @@ Implementação computacional do protocolo ProKnow-C (*Knowledge Development Pro
 
 ## Descrição
 
-Este repositório contém scripts em R que automatizam as Fases 1 e 2 do método ProKnow-C, desenvolvido por pesquisadores do Laboratório de Metodologias Multicritério em Apoio à Decisão (LabMCDA) da Universidade Federal de Santa Catarina (Ensslin et al., 2010). O pipeline integra exportações das bases Web of Science e Scopus, realiza deduplicação algorítmica e aplica o funil matemático para seleção de artigos.
+Este repositório contém scripts em R que automatizam as Fases 1 e 2 do método ProKnow-C, desenvolvido por pesquisadores do Laboratório de Metodologias Multicritério em Apoio à Decisão (LabMCDA) da Universidade Federal de Santa Catarina (UFCS) (Ensslin et al., 2010). O pipeline integra exportações das bases Web of Science e Scopus, realiza deduplicação algorítmica e aplica o funil matemático para seleção de artigos.
 
 ### Aplicação demonstrada
 
