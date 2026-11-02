@@ -84,7 +84,7 @@ Para reproduzir os resultados, é necessário:
 2. Replicar a busca com as strings documentadas no fluxograma (`docs/Figura1.drawio`)
 
 **Parâmetros de busca:**
-- Período: 2019–2026
+- Período: 2021–2026
 - Data da coleta: 10 de maio de 2026
 - Bases: Web of Science (Core Collection) e Scopus
 
